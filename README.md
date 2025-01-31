@@ -1,4 +1,4 @@
-<h1 align=center># Data Structures Overview 🗂️</h1>
+<h1 align=center>Data Structures Overview 🗂️</h1>
 Introduction
 A data structure is a way of organizing, storing, and managing data in a computer so that it can be used efficiently.
 🔄 Real-world Analogies
