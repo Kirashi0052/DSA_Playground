@@ -23,10 +23,18 @@
   <ItemGroup>
     <Folder Include="data_structures\" />
     <Folder Include="sort_algorithms\" />
+    <Folder Include="sort_algorithms\bubblesort\" />
+    <Folder Include="sort_algorithms\selectionsort\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="data_structures\array_basics.py" />
-    <Compile Include="sort_algorithms\bubblesort.py" />
+    <Compile Include="sort_algorithms\bubblesort\bubblesort.py" />
+    <Compile Include="sort_algorithms\selectionsort\selectionsort.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sort_algorithms\bubblesort\README.md" />
+    <Content Include="sort_algorithms\bubblesort\Sorting_bubblesort_anim.gif" />
+    <Content Include="sort_algorithms\selectionsort\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
