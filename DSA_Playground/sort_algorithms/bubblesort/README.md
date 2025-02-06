@@ -14,7 +14,7 @@ Bestcase: O(n) with optimization
 
 ## Visualization
 
-<img src="Sorting_bubblesort_anim.gif" />
+<img src="images/Sorting_bubblesort_anim.gif" />
 
 ## Intended use
 
@@ -24,4 +24,4 @@ Bestcase: O(n) with optimization
 
 ## Code implementation
 
-<img src="bubblesort.png"/>
+<img src="images/bubblesort.png"/>
