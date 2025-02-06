@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4e5abdfb-654e-4676-9b9f-688e1f5be681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sort_algorithms\selectionsort\selectionsort.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,16 +26,21 @@
     <Folder Include="sort_algorithms\" />
     <Folder Include="sort_algorithms\bubblesort\" />
     <Folder Include="sort_algorithms\bubblesort\images\" />
+    <Folder Include="sort_algorithms\insertionsort\" />
+    <Folder Include="sort_algorithms\insertionsort\images\" />
     <Folder Include="sort_algorithms\selectionsort\" />
+    <Folder Include="sort_algorithms\selectionsort\images\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="data_structures\array_basics.py" />
     <Compile Include="sort_algorithms\bubblesort\bubblesort.py" />
+    <Compile Include="sort_algorithms\insertionsort\insertionsort.py" />
     <Compile Include="sort_algorithms\selectionsort\selectionsort.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="sort_algorithms\bubblesort\README.md" />
     <Content Include="sort_algorithms\bubblesort\images\Sorting_bubblesort_anim.gif" />
+    <Content Include="sort_algorithms\insertionsort\README.md" />
     <Content Include="sort_algorithms\selectionsort\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
