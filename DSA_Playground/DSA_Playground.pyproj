@@ -22,6 +22,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="data_structures\" />
+    <Folder Include="search_algorithms\" />
+    <Folder Include="search_algorithms\binary_search\" />
     <Folder Include="sort_algorithms\" />
     <Folder Include="sort_algorithms\bubblesort\" />
     <Folder Include="sort_algorithms\bubblesort\images\" />
@@ -32,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="data_structures\array_basics.py" />
+    <Compile Include="search_algorithms\binary_search\binarysearch.py" />
     <Compile Include="sort_algorithms\bubblesort\bubblesort.py" />
     <Compile Include="sort_algorithms\insertionsort\insertionsort.py" />
     <Compile Include="sort_algorithms\selectionsort\selectionsort.py" />
