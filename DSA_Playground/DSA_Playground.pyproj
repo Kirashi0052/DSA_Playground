@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4e5abdfb-654e-4676-9b9f-688e1f5be681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sort_algorithms\insertionsort\insertionsort.py</StartupFile>
+    <StartupFile>search_algorithms\binary_search\binarysearch.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Folder Include="data_structures\" />
     <Folder Include="search_algorithms\" />
     <Folder Include="search_algorithms\binary_search\" />
+    <Folder Include="search_algorithms\binary_search\images\" />
     <Folder Include="sort_algorithms\" />
     <Folder Include="sort_algorithms\bubblesort\" />
     <Folder Include="sort_algorithms\bubblesort\images\" />
@@ -40,6 +41,7 @@
     <Compile Include="sort_algorithms\selectionsort\selectionsort.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="search_algorithms\binary_search\README.md" />
     <Content Include="sort_algorithms\bubblesort\README.md" />
     <Content Include="sort_algorithms\bubblesort\images\Sorting_bubblesort_anim.gif" />
     <Content Include="sort_algorithms\insertionsort\README.md" />
